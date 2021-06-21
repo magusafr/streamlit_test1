@@ -23,5 +23,4 @@ new_cases['date'] = tgl_trx2(new_cases['date'])
 new_cases = new_cases.fillna(0)
 df = new_cases.set_index('date')
 
-table_style = {'width': '100%', 'border': '1px solid black'}
-st.line_chart(df['new_cases'], style = table_style)
+st.line_chart(df['new_cases'], width=0, height=0, use_container_width=True)
