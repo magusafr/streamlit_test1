@@ -6,7 +6,6 @@ import datetime as dt
 st.write("""
 ## New Cases Covid-19 in Indonesia
 ### Source: Ourworldindata.org
-Visualisation by magusafr
 
 
 
